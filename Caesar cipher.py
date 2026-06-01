@@ -15,6 +15,6 @@ def encrypt(text, shift):
 def decrypt(text, shift):
     return caesar(text, shift, encrypt=False)
 
-encrypted_text = 'Pbhentr vf sbhaq va hayvxryl cynprf.'
+encrypted_text = input("enter text")
 decrypted_text = decrypt(encrypted_text,13)
 print(decrypted_text)
